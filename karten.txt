@@ -1,0 +1,71 @@
+Plantillas:
+Name=
+Art=Ausbildung
+Spieler=
+Komplexität=
+Text=
+Nombre=
+Tipo=
+Jugadores=
+Complejidad=
+Texto=
+%%%
+Name=
+Art=große Anschaffung
+Materialkosten=
+Nährwert=
+Text=
+Nombre=
+Tipo=grande Adquisición
+Costo de Materiales=
+Valor Nutricional=
+Texto=
+%%%
+Name=
+Art=kleine Anschaffung
+Komplexität=
+Nährwert=
+Anforderung=
+Text=
+Nombre=
+Tipo=
+Complejidad=
+Valor Nutricional=
+Requisito=
+Texto=
+%%%
+Name=Samenhändler
+Art=Ausbildung
+Spieler=3+
+Komplexität=K
+Text=Wenn du diese Karte ausspielts, erhälst du sofort 1 Getreide. Immer wenn du mit einer Person das Aktionsfeld "1 Getreide nehmen" nutzt, erhälst du 1 Getreide zusäzlich.
+Nombre=Comerciante de Granos y Semillas
+Tipo=Desarrollo
+Jugadores=3+
+Complejidad=K
+Texto=Cuando jugás esta carta, ganás inmediatamente 1 cereal. Siempre que uses con otra persona el campo de acción "Agarrar 1 cereal", obtenés 1 cereal más.
+%%%
+Name=Brunnen
+Art=große Anschaffung
+Materialkosten=1 Holz 3 Stein
+Nährwert=4
+Text=Lege auf die nächsten 5 Rundenfelder, soweit noch zu spielen, je 1 NW aus dem allgemeinen Vorrat. Zu Beginn dieser Runden erhältst du den Nährwert.
+Nombre=Aljibe
+Tipo=grande Adquisición
+Costo de Materiales=1 Madera 3 Piedra
+Valor Nutricional=4
+Texto=Colocar 1 NW de la reserva general en cada una de las siguientes 5 casillas de rondas que queden por jugarse. Al comienzo de estas rondas obtenés el NW.
+%%%
+Name=Salatfeld
+Art=kleine Anschaffung
+Komplexität=E
+Nährwert=1
+Anforderung=3 Ausbildungen haben
+Text=Auf dieser Karte kannst du beim Aussäen wie auf einem Acker Gemüse anpflanzen, das frisch geerntet in 4 NW umgewandelt werden kann. (Diese Karte zählt bis zur Wertung als Acker, bei der Wertung dann nicht mehr.)
+Nombre=Campo de Ensalada
+Tipo=pequeña Adquisición
+Complejidad=E
+Valor Nutricional=1
+Requisito=Tener 3 Desarrollos
+Texto=
+%%%
