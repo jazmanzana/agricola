@@ -1,14 +1,15 @@
 Plantillas:
+%%%
 ID=
 Name=
 Art=Ausbildung
 Spieler=
-Komplexität=
+Komplexität=E
 Text=
 Nombre=
 Tipo=Desarrollo
 Jugadores=
-Complejidad=
+Complejidad=E
 Texto=
 %%%
 ID=

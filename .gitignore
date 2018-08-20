@@ -27,7 +27,7 @@ venv/
 *.manifest
 celerybeat-schedule
 *,cover
-.coverage
+.coverageº
 .coverage.*
 coverage.xml
 .cache
