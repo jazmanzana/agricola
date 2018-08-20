@@ -1,13 +1,16 @@
-from flask import Flask
+from flask import Flask, send_from_directory, render_template
 import text_parser as tp
-from flask import render_template
+import os
 
-
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 
 @app.route('/cartas')
 def parse_all_cards():
     return tp.parse_cards()
+
+@app.route('/reglas')
+def agricola_rules():
+    return send_from_directory(os.getcwd(), 'agricola_rules.pdf')
 
 @app.route('/carta/<card_nr>')
 def get_card(card_nr):
