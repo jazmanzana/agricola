@@ -1,16 +1,21 @@
 # Agrícola
 
-/cartas
+`/cartas` 
+
 Todas las cartas del juego que lleva ese nombre traducidas del Alemán al Español.
 
-/carta/<nro_de_carta>
+`/carta/<nro_de_carta>`
+
 Todos los datos de la carta en cuestión en ambos idiomas.
 
-/reglas
+`/reglas`
+
 Abre el pdf con las reglas en Español.
 
-/puntuar
+`/puntuar`
+
 Tabla de puntuación en detalle y calculadora. (coming soon)
 
-/fases
+`/fases`
+
 Spielphasenübersicht. (coming soon)
