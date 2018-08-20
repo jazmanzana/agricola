@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import json
 
 def parse_cards():
-    #return json.dumps(get_all_cards())
     return get_all_cards()
 
 def get_all_cards():
@@ -43,5 +41,4 @@ def cards_to_dict(text):
     return all_cards
 
 def get_card(card):
-    #return json.dumps(get_all_cards().get(card))
     return get_all_cards().get(card)
