@@ -1,44 +1,3 @@
-Plantillas:
-ID=
-Name=
-Art=Ausbildung
-Spieler=
-Komplexität=
-Text=
-Nombre=
-Tipo=Desarrollo
-Jugadores=
-Complejidad=
-Texto=
-%%%
-ID=
-Name=
-Art=große Anschaffung
-Kosten=
-Gewinn=
-Text=
-Nombre=
-Tipo=grande Adquisición
-Costos=
-Ganancia=
-Texto=
-%%%
-ID=
-Name=
-Art=kleine Anschaffung
-Komplexität=
-Gewinn=
-Kosten=
-Anforderung=
-Text=
-Nombre=
-Tipo=pequeña Adquisición
-Complejidad=
-Ganancia=
-Costos=
-Requisito=
-Texto=
-%%%
 ID=296
 Name=Samenhändler
 Art=Ausbildung
@@ -112,4 +71,3 @@ Tipo=pequeña Adquisición
 Complejidad=E
 Costos=2 NW
 Texto=Colocar en cada campo de rondas con número par que queden por jugar 1 madera de la reserva general. Al comienzo de esas rondas obtenés esa madera.
-%%%

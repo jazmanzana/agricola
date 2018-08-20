@@ -1,0 +1,41 @@
+Plantillas:
+ID=
+Name=
+Art=Ausbildung
+Spieler=
+Komplexität=
+Text=
+Nombre=
+Tipo=Desarrollo
+Jugadores=
+Complejidad=
+Texto=
+%%%
+ID=
+Name=
+Art=große Anschaffung
+Kosten=
+Gewinn=
+Text=
+Nombre=
+Tipo=grande Adquisición
+Costos=
+Ganancia=
+Texto=
+%%%
+ID=
+Name=
+Art=kleine Anschaffung
+Komplexität=
+Gewinn=
+Kosten=
+Anforderung=
+Text=
+Nombre=
+Tipo=pequeña Adquisición
+Complejidad=
+Ganancia=
+Costos=
+Requisito=
+Texto=
+%%%
