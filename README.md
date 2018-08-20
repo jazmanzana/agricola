@@ -1,4 +1,5 @@
 # Agrícola
+[Uno de los mejores juegos de estrategia que existen.](https://boardgamegeek.com/boardgame/31260/agricola)
 
 `/cartas` 
 
