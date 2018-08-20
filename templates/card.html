@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Hello from Jaz!</title>
+{% if card %}
+<head>
+  <h1>Carta nro {{ card_nr }}</h1>
+</head>
+  <body>{{ card }}</body>
+{% else %}
+  <h1>Oopsie doopsie!</h1>
+{% endif %}

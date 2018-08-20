@@ -1,13 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import os
+import json
 
 def parse_cards():
+    return json.dumps(get_all_cards())
+
+def get_all_cards():
     text = copy_text()
     text_without_escapes = eliminate_scapes(text)
-    separate_cards = cards_to_dict(text_without_escapes)
-    return bytes(separate_cards)
+    return cards_to_dict(text_without_escapes)
 
 def copy_text():
     path = "{}/karten.txt".format(os.getcwd())
@@ -35,8 +38,14 @@ def cards_to_dict(text):
         if key == "ID":
             new_card = value
             all_cards[new_card] = {}
+            all_cards[new_card]["Deutsch"] = {}
+            all_cards[new_card]["Español"] = {}
         else:
-            all_cards[new_card][key] = value
+            if key in ["Name", "Art", "Spieler", "Komplexität", "Text", "Gewinn", "Anforderung", "Kosten"]:
+                all_cards[new_card]["Deutsch"][key] = value
+            else:
+                all_cards[new_card]["Espanol"][key] = value
     return all_cards
 
-
+def get_card(card):
+    return json.dumps(get_all_cards().get(card))
