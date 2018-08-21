@@ -36,8 +36,10 @@ def cards_to_dict(text):
             else:
                 if key in ["Name", "Art", "Spieler", "Komplexität", "Text", "Gewinn", "Anforderung", "Kosten"]:
                     all_cards[new_card]["Deutsch"][key] = value
-                else:
+                elif key in ["Nombre", "Tipo", "Jugadores", "Complejidad", "Texto", "Ganancia", "Requisito", "Costos"]:
                     all_cards[new_card]["Español"][key] = value
+                else:
+                    raise KeyError(f"Key {key} not found in any language!")
     return all_cards
 
 def get_card(card):
